@@ -1,3 +1,7 @@
+# Table of Contents
+- [Craft Points System Summary](#craft-points-system-summary)
+  - [Overview](#overview)
+
 # Craft Points System Summary
 
 ## Overview
