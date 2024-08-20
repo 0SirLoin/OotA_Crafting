@@ -1,99 +1,174 @@
-# Table of Contents
-- [Craft Points System Summary](#craft-points-system-summary)
-  - [Overview](#overview)
+# just-the-docs-template 
 
-# Craft Points System Summary
+This is a *bare-minimum* template to create a [Jekyll] site that:
 
-## Overview
-The Craft Points system provides a streamlined way to handle item creation in D&D 3.5. Characters can spend Craft Points to create items more quickly than using standard crafting rules. The number of Craft Points required to craft an item is based on its cost.
+- uses the [Just the Docs] theme;
+- can be built and published on [GitHub Pages];
+- can be built and previewed locally, and published on other platforms.
 
-### Key Points:
-- **Craft Points** represent the time and effort needed to craft items.
-- **Craft Points cost** is typically 1 Craft Point per 10 gp of an item's market price.
-- Characters can spend Craft Points to complete crafting in a fraction of the normal time.
+More specifically, the created site:
 
-## Craft Points Cost Calculation
-To calculate the Craft Points needed to craft an item:
-- Divide the item's market price by 10 to determine the Craft Points required.
+- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
+- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
 
-**Example**: An item with a market price of 300 gp requires 30 Craft Points.
+To get started with creating a site, simply:
 
-## Crafting Feats
-Here are the crafting feats that interact with Craft Points:
+1. click "[use this template]" to create a GitHub repository
+2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
 
-| Feat                  | Prerequisites                          | Benefits                                                   |
-|-----------------------|----------------------------------------|------------------------------------------------------------|
-| Brew Potion           | Caster level 3rd                       | Create potions up to 3rd-level spells.                     |
-| Craft Magic Arms and Armor | Caster level 5th                  | Create magic weapons, armor, and shields.                  |
-| Craft Rod             | Caster level 9th                       | Create magic rods.                                         |
-| Craft Staff           | Caster level 12th                      | Create magic staffs.                                       |
-| Craft Wand            | Caster level 5th                       | Create wands of spells.                                    |
-| Craft Wondrous Item   | Caster level 3rd                       | Create miscellaneous magic items.                          |
-| Forge Ring            | Caster level 12th                      | Create magic rings.                                        |
-| Scribe Scroll         | Caster level 1st                       | Create scrolls of spells.                                  |
-| Craft Construct       | Caster level 9th, Craft Magic Arms and Armor, Craft Wondrous Item | Create magic constructs.            |
-| Craft Alchemical Item | Craft (alchemy) skill                  | Create alchemical items.                                   |
+If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
 
-## Craftable Items and Costs
-Here is a summary of the items that can be crafted, along with their costs and required Craft Points:
+After completing the creation of your new site on GitHub, update it as needed:
 
-### Magic Arms and Armor
+## Replace the content of the template pages
 
-| Item                          | Market Price | Craft Points Required |
-|-------------------------------|--------------|-----------------------|
-| +1 Weapon Enhancement          | 2,000 gp     | 200 Craft Points      |
-| +2 Armor Enhancement           | 4,000 gp     | 400 Craft Points      |
-| +3 Shield Enhancement          | 9,000 gp     | 900 Craft Points      |
+Update the following files to your own content:
 
-### Wondrous Items
+- `index.md` (your new home page)
+- `README.md` (information for those who access your site repo on GitHub)
 
-| Item                          | Market Price | Craft Points Required |
-|-------------------------------|--------------|-----------------------|
-| Bag of Holding, Type I         | 2,500 gp     | 250 Craft Points      |
-| Cloak of Resistance +1         | 1,000 gp     | 100 Craft Points      |
-| Boots of Elvenkind             | 2,500 gp     | 250 Craft Points      |
+## Changing the version of the theme and/or Jekyll
 
-### Potions
+Simply edit the relevant line(s) in the `Gemfile`.
 
-| Potion                         | Market Price | Craft Points Required |
-|--------------------------------|--------------|-----------------------|
-| Cure Light Wounds              | 50 gp        | 5 Craft Points        |
-| Invisibility                   | 300 gp       | 30 Craft Points       |
-| Fly                            | 750 gp       | 75 Craft Points       |
+## Adding a plugin
 
-### Scrolls
+The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
 
-| Spell Level | Caster Level | Market Price | Craft Points Required |
-|-------------|--------------|--------------|-----------------------|
-| 0           | 1            | 12.5 gp      | 1.25 Craft Points     |
-| 1st         | 1            | 25 gp        | 2.5 Craft Points      |
-| 2nd         | 3            | 150 gp       | 15 Craft Points       |
-| 3rd         | 5            | 375 gp       | 37.5 Craft Points     |
+To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
 
-### Wands
+- Add the following to your site's `Gemfile`:
 
-| Spell Level | Caster Level | Charges | Market Price | Craft Points Required |
-|-------------|--------------|---------|--------------|-----------------------|
-| 1st         | 1            | 50      | 750 gp       | 75 Craft Points       |
-| 2nd         | 3            | 50      | 4,500 gp     | 450 Craft Points      |
-| 3rd         | 5            | 50      | 11,250 gp    | 1,125 Craft Points    |
+  ```ruby
+  gem "jekyll-default-layout"
+  ```
 
-### Rods
+- And add the following to your site's `_config.yml`:
 
-| Item                          | Market Price | Craft Points Required |
-|-------------------------------|--------------|-----------------------|
-| Rod of Cancellation            | 11,000 gp    | 1,100 Craft Points    |
-| Rod of Flame Extinguishing     | 15,000 gp    | 1,500 Craft Points    |
+  ```yaml
+  plugins:
+    - jekyll-default-layout
+  ```
 
-## Crafting Time
-Using Craft Points significantly reduces crafting time. Craft Points allow characters to craft items in hours instead of days or weeks.
+Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
 
-### Time Reduction Example:
-- If an item normally takes 8 days to craft, spending the appropriate Craft Points could reduce this time to as little as 8 hours.
+## Publishing your site on GitHub Pages
 
-## Conclusion
-The Craft Points system offers a flexible and efficient way to handle item creation, reducing the time and complexity normally required by standard crafting rules. By understanding and utilizing Craft Points and related feats, players can enhance their crafting capabilities significantly.
+1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
 
----
+    ```yaml
+    title: YOUR TITLE
+    description: YOUR DESCRIPTION
+    theme: just-the-docs
 
-For a more detailed breakdown, refer to the [original Craft Points documentation](https://www.d20srd.org/srd/variant/buildingCharacters/craftPoints.htm).
+    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
+
+    aux_links: # remove if you don't want this link to appear on your pages
+      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
+    ```
+
+2.  Push your updated `_config.yml` to your site on GitHub.
+
+3.  In your newly created repo on GitHub:
+    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
+    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
+
+## Building and previewing your site locally
+
+Assuming [Jekyll] and [Bundler] are installed on your computer:
+
+1.  Change your working directory to the root directory of your site.
+
+2.  Run `bundle install`.
+
+3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
+
+    The built site is stored in the directory `_site`.
+
+## Publishing your built site on a different platform
+
+Just upload all the files in the directory `_site`.
+
+## Customization
+
+You're free to customize sites that you create with this template, however you like!
+
+[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+
+## Hosting your docs from an existing project repo
+
+You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can copy the template files into your existing repo and configure the template's Github Actions workflow to build from a `docs` directory. You can clone the template to your local machine or download the `.zip` file to access the files.
+
+### Copy the template files
+
+1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
+
+2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
+
+### Modify the GitHub Actions workflow
+
+The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
+
+1.  Set the default `working-directory` param for the build job.
+
+    ```yaml
+    build:
+      runs-on: ubuntu-latest
+      defaults:
+        run:
+          working-directory: docs
+    ```
+
+2.  Set the `working-directory` param for the Setup Ruby step.
+
+    ```yaml
+    - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+          working-directory: '${{ github.workspace }}/docs'
+    ```
+
+3.  Set the path param for the Upload artifact step:
+
+    ```yaml
+    - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "docs/_site/"
+    ```
+
+4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
+
+    ```yaml
+    on:
+      push:
+        branches:
+          - "main"
+        paths:
+          - "docs/**"
+    ```
+
+## Licensing and Attribution
+
+This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
+
+The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
+
+----
+
+[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+
+[Jekyll]: https://jekyllrb.com
+[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
+[GitHub Pages]: https://docs.github.com/en/pages
+[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
+[Bundler]: https://bundler.io
+[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
+[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
+[MIT License]: https://en.wikipedia.org/wiki/MIT_License
+[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
+[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
