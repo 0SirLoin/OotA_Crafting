@@ -1,7 +1,7 @@
----
+<!-- ---
 title: Home
 layout: home
----
+--- -->
 
 # Table of Contents
 - [Craft Points System Summary](#craft-points-system-summary)
