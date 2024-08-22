@@ -50,7 +50,7 @@ layout: home
 
 | Spieler  | Punkte | ausgegeben |
 |----------|--------|------------|
-| Herrbart | 5600   | 0          |
+| Herrbart | 6600   | 0          |
 | Conold   | 2100   | 0          |
 | Caelan   | 2100   | 0          |
 | Fenril   | 2100   | 0          |
