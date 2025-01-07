@@ -50,12 +50,12 @@ layout: home
 
 | Spieler  | Punkte | ausgegeben |
 |----------|--------|------------|
-| Herrbart | 6600   | 0          |
-| Conold   | 2100   | 0          |
-| Caelan   | 2100   | 0          |
-| Fenril   | 2100   | 0          |
-| Gabriel  | 2100   | 0          |
-| Lucien   | 2100   | 0          |
+| Herrbart | 6850   | 0          |
+| Conold   | 2800   | 0          |
+| Caelan   | 2800   | 0          |
+| Fenril   | 2700   | 0          |
+| Gabriel  | 2800   | 0          |
+| Lucien   | 2800   | 0          |
 
 ## Unterstützung
 - Bis zu drei Assistenten können Handwerkspunkte beisteuern, um die Erstellung eines Gegenstandes zu unterstützen
