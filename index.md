@@ -50,12 +50,12 @@ layout: home
 
 | Spieler  | Punkte | ausgegeben |
 |----------|--------|------------|
-| Herrbart | 8550   | 0          |
-| Conold   | 4500   | 0          |
-| Caelan   | 4500   | 0          |
-| Fenril   | 4400   | 0          |
-| Gabriel  | 7100   | 0          |
-| Lucien   | 4500   | 0          |
+| Herrbart | 9550   | 0          |
+| Conold   | 5500   | 0          |
+| Caelan   | 5500   | 0          |
+| Fenril   | 5400   | 0          |
+| Stella   | 8100   | 0          |
+| Lucien   | 5500   | 0          |
 
 ## Unterstützung
 - Bis zu drei Assistenten können Handwerkspunkte beisteuern, um die Erstellung eines Gegenstandes zu unterstützen
@@ -81,3 +81,10 @@ Hier ist eine Liste aller Crafting Feats:
 | [Waffen](https://www.d20srd.org/srd/equipment/weapons.htm#weaponDescriptions) | None                           | None                        | yes | 0            | None                                                       |
 | [Rüstung](https://www.d20srd.org/srd/equipment/armor.htm#armorDescriptions) | None                           | None                        | yes | 0            | None                                                       |
 | [Ausrüstung](https://www.d20srd.org/srd/equipment/goodsAndServices.htm#adventuringGear) | None                           | None                        | yes | 0            | None                                                       |
+
+## Crafting History
+
+| Item  | Kosten (gp) | Kosten (cp) | bezahlt |
+|-------|-------------|-------------|---------|
+| Headband of Intellect +2 | 2000gp | 400cp | Herrbart (400) |
+| Cloak of Resistance +1 | 500gp | 100cp | Herrbart (50), Fenril (100) |
