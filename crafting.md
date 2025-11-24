@@ -93,3 +93,10 @@ Hier ist eine Liste aller Crafting Feats:
 |-------|-------------|-------------|---------|
 | Headband of Intellect +2 | 2000gp | 400cp | Herrbart (400) |
 | Cloak of Resistance +1 | 500gp | 100cp | Herrbart (50), Fenril (100) |
+
+
+## Crafting Wünsche
+
+| Wer | Item  | Kosten (gp) | Kosten (cp) |
+|-----|-------|-------------|-------------|
+| Lucien | Periapt of Wisdom +2 | 2000gp | 400cp |
