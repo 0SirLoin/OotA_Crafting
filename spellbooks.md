@@ -1,8 +1,41 @@
 # Zauberbücher
 
-## Buch #1 "Underland Magick" [63]:
+## Scrolls die interessant wären
 
-Grad 1 (7) (2)
+Grad 1 (25gp each = 75gp)
++ Color Spray
++ Enlarge Person
++ Reduce Person
+
+Grad 2 (150gp each = 1500gp)
++ Web
++ Hideous Laughter
++ Detect Thoughts
++ See Invisibility
++ Bear’s Endurance
++ Bull’s Strength
++ Darkvision
++ Eagle’s Splendor
++ Fox’s Cunning
++ Owl’s Wisdom
+
+Grad 3 (375gp)
++ Arcane Sight
+
+Grad 5 (1125gp)
++ Telepathic Bond
+
+## Scrolls die ich habe
+
+Grad 3
++ Scroll of Water Breathing
+
+Grad 5
++ Scroll of Overland Flight
+
+## Buch #1 "Underland Magick" (3400g):
+
+Grad 1 (200g)
 - Alarm
 - Identify
 + Comprehend Languages
@@ -11,7 +44,7 @@ Grad 1 (7) (2)
 - Color Spray
 + Unseen Servant
 
-Grad 2 (7 [14]) (2 [4])
+Grad 2 (400g)
 - Alter Self
 + Knock
 - Blur
@@ -20,7 +53,7 @@ Grad 2 (7 [14]) (2 [4])
 + Gust of Wind
 - Ghoul Touch
 
-Grad 3 (6 [18]) (4 [12])
+Grad 3 (1200g)
 + Displacement
 + Gaseous Form
 - Dispel Magic
@@ -28,32 +61,32 @@ Grad 3 (6 [18]) (4 [12])
 + Water Breathing
 + Tongues
 
-Grad 4 (6 [24]) (5 [20])
+Grad 4 (1600g)
 + Phantasmal Killer
 - Stoneskin
 + Locate Creature
 + Fire Shield
 + Hallucinatory Terrain
 
-## Zweites Buch "Magick aus Hinter dem Spiegel" [83]:
+## Zweites Buch "Magick aus Hinter dem Spiegel" (6800g):
 
-Grad 5 (4 [20])
-+ Telekinesis (hab ich schon)
+Grad 5 (500g)
+- Telekinesis
 + Cloudkill
-+ Hold Monster (gelernt)
-+ Passwall
+- Hold Monster
+- Passwall
 
-Grad 6 (3 [18])
+Grad 6 (1800g)
 + True Seeing
 + Stone to Flesh
 + Chain Lightning
 
-Grad 7 (3 [21])
+Grad 7 (2100g)
 + Mages Magificent Mansion
 + Forcecage
 + Teleport, Greater
 
-Grad 8 (3 [24])
+Grad 8 (2400g)
 + Power Word Stun
 + Incendiary Cloud
 + Irresistable Dance
