@@ -11,3 +11,5 @@ Dieses Repository bündelt Hausregeln und Notizen für unsere Out of the Abyss /
 | [spellbooks.md](./spellbooks.md) | Verwaltung von Zauberbüchern, Seitenkosten, spezielle Einträge. |
 | [polymorph.md](./polymorph.md) | Referenz & Hausregeln für Polymorph-Formen / neue Formen. |
 | [levelup.md](./levelup.md) | Checkliste für Level-Ups: HP, BAB, Saves, Feats, Attribute, Spells, Familiar Updates. |
+| [permanency.md](./permanency.md) | Vollständiger Permanency-Zauber + Liste möglicher dauerhafter Effekte. |
+| [quasit.md](./quasit.md) | Quasit Statblock & Fähigkeiten (SRD). |
